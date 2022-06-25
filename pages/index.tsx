@@ -14,9 +14,9 @@ export default function Home() {
       <Header />
       <img className="object-cover object-center w-full h-56 mx-auto rounded-lg" src="/main_grap.png" alt="Main Image" width={1920} height={800}/>
       <Seo
-        pageTitle={'Aptos Egg With Witch'}
-        pageDescription={'Aptos Egg With Witch'}
-        pageImg={'https://sign-witch.vercel.app/_next/image?url=%2Fmain_grap.png&w=3840&q=75'}
+        pageTitle={'Aptos Crown Masks'}
+        pageDescription={'Aptos Crown Masks'}
+        pageImg={'https://aptos-crown-masks.vercel.app/main_grap.png'}
         pageImgWidth={1920}
         pageImgHeight={1005}
       />
