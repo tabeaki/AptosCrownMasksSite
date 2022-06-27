@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Seo from './components/Seo'
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -70,7 +71,7 @@ export default function Home() {
                     <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">The witch is our king.</p>
                 </div>
 
-                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="NIKE AIR" />
+                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="APTOS MASKS" />
 
                 <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
                     <h1 className="text-lg font-bold text-gray-900">$129</h1>
@@ -83,7 +84,7 @@ export default function Home() {
                     <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">witches hide their appearance.</p>
                 </div>
 
-                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="NIKE AIR" />
+                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="APTOS MASKS" />
 
                 <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
                     <h1 className="text-lg font-bold text-gray-900">$129</h1>
@@ -96,7 +97,7 @@ export default function Home() {
                     <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">We do everything for the witches</p>
                 </div>
 
-                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="NIKE AIR" />
+                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="APTOS MASKS" />
 
                 <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
                     <h1 className="text-lg font-bold text-gray-900">$129</h1>
@@ -109,7 +110,7 @@ export default function Home() {
                     <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">It is a wave, a wave is a current</p>
                 </div>
 
-                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="NIKE AIR" />
+                <img className="object-cover w-full h-48 mt-2" src="/AptosCrownMAask.png" alt="APTOS MASKS" />
                 
                 <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
                     <h1 className="text-lg font-bold text-gray-900">$129</h1>
