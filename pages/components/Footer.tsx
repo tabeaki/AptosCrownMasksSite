@@ -1,7 +1,7 @@
  
  
  function Footer() {
-     return     <footer className="bg-white dark:bg-gray-800">
+     return     <footer className="bg-black">
      <div className="container px-6 py-8 mx-auto">
          <hr className="my-10 border-gray-200 dark:border-gray-700" />
 

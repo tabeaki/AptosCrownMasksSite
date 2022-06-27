@@ -21,7 +21,7 @@ export default function Home() {
         pageImgHeight={1005}
       />
 
-      <section className="bg-white dark:bg-gray-800">
+      <section className="bg-black">
         <div className="container px-6 py-8 mx-auto border-b-2">
             <div className="items-center lg:flex">
                 <div className="lg:w-1/2">
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
     </section>
 
-    <section className="bg-white dark:bg-gray-800">
+    <section className="bg-black">
         <div className="container px-4 py-16 mx-auto lg:flex lg:items-center lg:justify-between border-b-2">
             <h2 className="text-3xl font-semibold tracking-tight text-gray-800 xl:text-4xl dark:text-white">
             Where to buy this collection
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
         </div>
     </section>
-    <section  className="bg-white dark:bg-gray-800">
+    <section  className="bg-black">
         <div className='lg:flex py-24'>
             <div className="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-900 lg:w-1/6">
                 <div className="px-4 py-2">
@@ -119,8 +119,8 @@ export default function Home() {
         </div>
     </section>
     <section>
-      <div className="dark:bg-gray-800">
-        <div className="container px-6 py-16 mx-auto dark:bg-gray-800 border-b-2">
+      <div className="bg-black">
+        <div className="container px-6 py-16 mx-auto border-b-2">
             <div className="items-center lg:flex">
                 <div className="w-full lg:w-1/2">
                     <div className="lg:max-w-lg">
@@ -143,7 +143,7 @@ export default function Home() {
       </div>  
     </section>
     
-    <section className="dark:bg-gray-800">
+    <section className="bg-black">
       <div className="container p-6 mx-auto">
         <h2 className="text-xl font-medium text-gray-800 capitalize dark:text-white md:text-2xl">Our Team</h2>
         <div className="flex items-center justify-center">
