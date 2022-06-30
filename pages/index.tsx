@@ -1,17 +1,16 @@
+import type { NextPage } from 'next'
+import React, { useState, useEffect } from "react";
+import { ethers } from "ethers"
 /* eslint-disable @next/next/no-img-element */
 import Seo from './components/Seo'
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-export default function Home() {
 
-  function test(){
-    return<>
-    
-    </>
-  }
+const Home: NextPage = () => {
+
   return (
-    <div>
+    <div id="home">
       <Header />
       <img className="object-cover object-center w-full h-56 mx-auto rounded-lg" src="/main_grap.png" alt="Main Image" width={1920} height={800}/>
       <Seo
@@ -120,7 +119,7 @@ export default function Home() {
         </div>
     </section>
     <section>
-      <div className="bg-black">
+      <div id="roadmap" className="bg-black">
         <div className="container px-6 py-16 mx-auto border-b-2">
             <div className="items-center lg:flex">
                 <div className="w-full lg:w-1/2">
@@ -144,7 +143,7 @@ export default function Home() {
       </div>  
     </section>
     
-    <section className="bg-black">
+    <section id="team" className="bg-black">
       <div className="container p-6 mx-auto">
         <h2 className="text-xl font-medium text-gray-800 capitalize dark:text-white md:text-2xl">Our Team</h2>
         <div className="flex items-center justify-center">
@@ -191,4 +190,6 @@ export default function Home() {
       <Footer />
     </div>
   )
-}
+} 
+
+export default Home

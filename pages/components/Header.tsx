@@ -1,5 +1,8 @@
+import type { NextPage } from 'next'
+import {Link as Scroll} from "react-scroll"
+
 /* eslint-disable @next/next/no-img-element */
- function Header() {
+const Header: NextPage = () => {
      return <nav className="bg-black">
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
             <div className="flex items-center justify-between">
@@ -18,10 +21,18 @@
 
             <div className="items-center md:flex">
                 <div className="flex flex-col md:flex-row md:mx-6">
-                    <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Home</a>
-                    <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Roadmap</a>
-                    <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Team</a>
-                    <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">About</a>
+                    <Scroll to="home" smooth={true} duration={600} offset={-30}>
+                        <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0">Home</a>
+                    </Scroll>
+                    <Scroll to="roadmap" smooth={true} duration={600} offset={-30}>
+                        <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0">Roadmap</a>
+                    </Scroll>
+                    <Scroll to="team" smooth={true} duration={600} offset={-30}>
+                        <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0">Team</a>
+                    </Scroll>
+                    <Scroll to="about" smooth={true} duration={600} offset={-30}>
+                        <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0">About</a>
+                    </Scroll>
                 </div>
             </div>
         </div>
