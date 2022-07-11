@@ -25,9 +25,9 @@ const Home: NextPage = () => {
         <div className="container px-6 py-8 mx-auto border-b-2">
             <div className="items-center lg:flex">
                 <div className="lg:w-1/2">
-                    <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">Who I am</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">SampleSampleSampleSampleSampleSample</h2>
                     <p className="mt-4 text-2xl text-gray-500 dark:text-gray-400 lg:max-w-md">
-                        Hi I am jane , software engineer <a className="font-bold text-blue-600 dark:text-blue-400" href="#">@BakaTeam</a> , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
+                    SampleSampleSampleSampleSampleSample SampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSample
                     </p>
                 </div>
                 <div className="mt-8 lg:mt-0 lg:w-1/2">

@@ -30,7 +30,7 @@ const Header: NextPage = () => {
                     <Scroll to="team" smooth={true} duration={600} offset={-30}>
                         <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0">Team</a>
                     </Scroll>
-                    <Scroll to="about" smooth={true} duration={600} offset={-30}>
+                    <Scroll to="team" smooth={true} duration={600} offset={-30}>
                         <a className="my-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0">About</a>
                     </Scroll>
                 </div>
